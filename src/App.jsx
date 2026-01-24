@@ -65,6 +65,7 @@ function Condition()
   return <>
             <br/>
            { value ? "TRUE" : "FALSE"}
+           <br/>
         </>
 }
 export default App
