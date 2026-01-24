@@ -49,6 +49,7 @@ function Increase()
 function Decrease()
 {
   let setcount = useSetRecoilState(counterAtom);
+  console.log("inside Decrease Button")
   function decrease()
   {
     setcount(c=>c-1);
