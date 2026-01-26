@@ -21,7 +21,7 @@ function MainApp() {
       <button>Messaging ({networkCount.messaging})</button>
       <button>Notifications ({networkCount.notifications})</button>
 
-      <button>Me ({totalNotificationCount})</button>
+      <button>Total ({totalNotificationCount})</button>
     </>
   )
 }
